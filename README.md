@@ -1,11 +1,7 @@
-<div align="center">
-  <img src="Assets/Banner.jpg" alt="Orbit Proxy Logo" style="width: 300px; height: auto; object-fit: contain;">
-</div>
-
 
 
 <div align="center">  
-  <h1>Faster, better, the future.</h1>  
+  <h1>Always better with Eclipse.</h1>  
   <p>We are proud to release our new project <strong>ORBIT Games</strong>. Completely built with <strong>HTML</strong>, we've created a <strong>fully functional</strong> game website.</p>
 
 
@@ -18,7 +14,6 @@
 | Tab Cloaking            | Disguise to an educational site                            |
 | about:blank Cloaker     | Instantly switch to a blank page for privacy.              |
 | Secure One-Time Login   | Login securely with a unique, single-use authentication method. |
-| Easy Accessibility      | PlayerVPN Games is super easy to clone or fork, this can be hosted anywhere, even static site hosts! |
 
 
 
