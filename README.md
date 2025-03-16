@@ -2,7 +2,7 @@
 
 <div align="center">  
   <h1>Always better with Eclipse.</h1>  
-  <p>We are proud to release our new project <strong>ORBIT Games</strong>. Completely built with <strong>HTML</strong>, we've created a <strong>fully functional</strong> game website.</p>
+  <p>We are proud to release our new project <strong>Eclipse Proxy</strong>. Completely built with <strong>HTML</strong>, we've created a <strong>fully functional</strong> game, movie, and unrestricted browser website.</p>
 
 
 
