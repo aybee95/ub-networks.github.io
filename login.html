@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Orbit Login</title>
+  <title>Eclipse Login</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     body {
@@ -12,7 +12,7 @@
       padding: 0;
       font-family: 'Courier New', Courier, monospace;
       background: radial-gradient(circle at top, #000000, #0a0a0a, #1a1a1a);
-      color: #00ff88;
+      color: #FFFFFF;
       overflow: hidden;
       height: 100vh;
       display: flex;
@@ -32,19 +32,19 @@
       width: 120px;
       height: 120px;
       border-radius: 50%;
-      background: radial-gradient(circle, #00ff88, #003322);
+      background: radial-gradient(circle, #FFFFFF, #d3d3d3);
       display: flex;
       align-items: center;
       justify-content: center;
       margin-bottom: 30px;
       font-size: 60px;
-      box-shadow: 0 0 20px #00ff88;
+      box-shadow: 0 0 20px #FFFFFF;
     }
 
     .title {
       font-size: 24px;
       margin-bottom: 20px;
-      text-shadow: 0px 0px 5px #00ff88;
+      text-shadow: 0px 0px 5px #FFFFFF;
     }
 
     .input-container {
@@ -56,18 +56,18 @@
       width: 300px;
       padding: 15px;
       border-radius: 25px;
-      border: 2px solid #00ff88;
+      border: 2px solid #FFFFFF;
       outline: none;
       font-size: 18px;
       text-align: center;
       background: black;
-      color: #00ff88;
-      box-shadow: 0 0 10px #00ff88;
+      color: #FFFFFF;
+      box-shadow: 0 0 10px #FFFFFF;
       transition: box-shadow 0.3s ease, transform 0.2s ease;
     }
 
     input:focus {
-      box-shadow: 0 0 20px #00ff88;
+      box-shadow: 0 0 20px #FFFFFF;
       transform: scale(1.05);
     }
 
@@ -78,7 +78,7 @@
       transform: translateY(-50%);
       background: none;
       border: none;
-      color: #00ff88;
+      color: #FFFFFF;
       font-size: 28px;
       cursor: pointer;
       transition: transform 0.2s ease;
@@ -94,8 +94,8 @@
       width: 100%;
       text-align: center;
       font-size: 12px;
-      color: #00ff88;
-      text-shadow: 0px 0px 5px #00ff88;
+      color: #FFFFFF;
+      text-shadow: 0px 0px 5px #FFFFFF;
     }
 
     .stars {
@@ -113,7 +113,7 @@
       position: absolute;
       width: 2px;
       height: 2px;
-      background: #00ff88;
+      background: #FFFFFF;
       border-radius: 50%;
       animation: move 10s linear infinite;
     }
@@ -132,13 +132,13 @@
   <div class="stars"></div>
   <div class="container">
     <div class="avatar"><i class="fas fa-user-shield"></i></div>
-    <div class="title">Welcome to Orbit. Authentication</div>
+    <div class="title">Welcome to Eclipse. Authentication</div>
     <div class="input-container">
       <input type="password" id="password" placeholder="Enter Password">
       <button class="submit-btn" id="submit"><i class="fas fa-arrow-right"></i></button>
     </div>
   </div>
-  <div class="footer">© 2024-2025 Orbit Systems</div>
+  <div class="footer">© 2024-2025 Eclipse Proxy</div>
 
   <script>
     if (localStorage.getItem('isLoggedIn') === 'true') {
@@ -148,7 +148,7 @@
 
     document.getElementById('submit').addEventListener('click', () => {
       const password = document.getElementById('password').value;
-      if (password === 'Orbit') {
+      if (password === 'password125') {
         localStorage.setItem('isLoggedIn', 'true');
         window.location.href = 'games.html';
       } else {
